@@ -164,7 +164,7 @@ void trip()
             if(isalpha(ch1)&&isalpha(ch2))
              printf("(%d)\t%c\t%c\t%c\n",sl-1,ch,ch1,ch2);
             else if(isalpha(ch1)&&isdigit(ch2))
-             printf("(%d)\t%c\tt%c\t(%c)\n",sl-1,ch,ch1,ch2-1);
+             printf("(%d)\t%c\t%c\t(%c)\n",sl-1,ch,ch1,ch2-1);
             else if(isalpha(ch2)&&isdigit(ch1))
              printf("(%d)\tt%c\t(%c)\t%c\n",sl-1,ch,ch1-1,ch2);
             else if(isdigit(ch1)&&isdigit(ch2))
