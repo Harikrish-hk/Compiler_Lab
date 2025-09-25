@@ -10,6 +10,7 @@ int main()
     scanf("%s",input);
     printf("Sl.No\tStack\tInput\tAction\n");
     printf("%d\t$%s\t%s$\t-\n",sl,stack,input);
+    sl++;
     while(input[j]!='\0')
     {
         ch=input[j];
