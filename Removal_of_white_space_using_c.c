@@ -38,7 +38,7 @@ int main(int argc,char *argv[])
                     else
                     {
                         fputc('/',fp2);
-                        ungetc(ch,fp2);
+                        ungetc(ch,fp1);
                     }
                     break;
             default: fputc(ch,fp2);
